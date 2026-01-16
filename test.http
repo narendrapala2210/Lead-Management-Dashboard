@@ -1,0 +1,27 @@
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5NmEwM2Q2ZGVlZmRlNzQzZTkzMjY3MSIsImlhdCI6MTc2ODU3MjM0NX0.c6LWbaQp69DBO2Zjj0OeWnblFZEOftE3LyvSt3XjSJg
+
+# Use in requests by adding the header:
+# Authorization: Bearer {{token}}
+
+###login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email":"admin@test.com",
+    "password":"Test@123"
+}
+
+
+### Get all leads
+GET http://localhost:3000/api/leads?search=john&status=Converted&sort=createdAt&order=asc&page=1&limit=10
+Authorization: Bearer {{token}}
+
+
+### Get lead by ID
+GET http://localhost:3000/api/leads/696a039d5867a39e711bc080
+Authorization: Bearer {{token}}
+
+### Get lead stats
+GET http://localhost:3000/api/leads/stats
+Authorization: Bearer {{token}}

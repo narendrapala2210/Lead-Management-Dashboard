@@ -2,6 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 import logger from "../utils/logger";
 import { CustomError } from "./errorhandler";
+import { config } from "../config/env";
 
 const authenticate = (req: Request, res: Response, next: NextFunction) => {
   const authHeader = req.headers["authorization"];
@@ -12,7 +13,7 @@ const authenticate = (req: Request, res: Response, next: NextFunction) => {
     return next(new CustomError("Authentication required", 401));
   }
 
-  const JWT_SECRET = process.env.JWT_SECRET as string;
+  const JWT_SECRET = config.jwtSecretKey;
   const decode = jwt.verify(token, JWT_SECRET) as { id: string } | null;
   if (!decode) {
     logger.warn("Invalid token!");

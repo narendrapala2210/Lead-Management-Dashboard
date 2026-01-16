@@ -1,0 +1,199 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* --------------------------------------------------
+   Theme tokens (HEX-based)
+-------------------------------------------------- */
+@theme {
+  --color-background: #f8fafc;
+  --color-foreground: #0f172a;
+
+  --color-card: #ffffff;
+  --color-card-foreground: #0f172a;
+
+  --color-popover: #ffffff;
+  --color-popover-foreground: #0f172a;
+
+  --color-primary: #2563eb;
+  --color-primary-foreground: #f8fafc;
+
+  --color-secondary: #f1f5f9;
+  --color-secondary-foreground: #0f172a;
+
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+
+  --color-accent: #f1f5f9;
+  --color-accent-foreground: #0f172a;
+
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #f8fafc;
+
+  --color-border: #e2e8f0;
+  --color-input: #e2e8f0;
+  --color-ring: #2563eb;
+
+  --radius-md: 0.5rem;
+
+  /* Sidebar */
+  --color-sidebar-bg: #0f172a;
+  --color-sidebar-foreground: #f8fafc;
+  --color-sidebar-hover: #1e293b;
+  --color-sidebar-active: #2563eb;
+
+  /* Status */
+  --color-status-new: #2563eb;
+  --color-status-new-bg: #eff6ff;
+
+  --color-status-contacted: #7c3aed;
+  --color-status-contacted-bg: #f5f3ff;
+
+  --color-status-qualified: #f59e0b;
+  --color-status-qualified-bg: #fffbeb;
+
+  --color-status-converted: #16a34a;
+  --color-status-converted-bg: #f0fdf4;
+
+  --color-status-lost: #ef4444;
+  --color-status-lost-bg: #fef2f2;
+}
+
+/* Dark mode overrides */
+.dark {
+  --color-background: #020617;
+  --color-foreground: #f8fafc;
+
+  --color-card: #020617;
+  --color-border: #1e293b;
+  --color-input: #1e293b;
+
+  --color-sidebar-bg: #020617;
+  --color-sidebar-hover: #0f172a;
+}
+
+/* --------------------------------------------------
+   Base
+-------------------------------------------------- */
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+    @apply bg-background text-foreground antialiased;
+  }
+
+  * {
+    border-color: var(--color-border);
+  }
+}
+
+/* --------------------------------------------------
+   Components
+-------------------------------------------------- */
+@layer components {
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-3 rounded-lg
+           text-sidebar-foreground/80
+           hover:bg-sidebar-hover hover:text-sidebar-foreground
+           transition-all duration-200;
+  }
+
+  .sidebar-link-active {
+    @apply bg-sidebar-active text-white font-medium;
+  }
+
+  .analytics-card {
+    @apply bg-card rounded-xl p-6 border
+           hover:shadow-md transition-shadow duration-200;
+  }
+
+  .status-badge {
+    @apply inline-flex items-center px-2.5 py-0.5
+           rounded-full text-xs font-medium;
+  }
+
+  .status-new {
+    @apply bg-status-new-bg text-status-new;
+  }
+
+  .status-contacted {
+    @apply bg-status-contacted-bg text-status-contacted;
+  }
+
+  .status-qualified {
+    @apply bg-status-qualified-bg text-status-qualified;
+  }
+
+  .status-converted {
+    @apply bg-status-converted-bg text-status-converted;
+  }
+
+  .status-lost {
+    @apply bg-status-lost-bg text-status-lost;
+  }
+
+  .table-row-hover {
+    @apply hover:bg-muted/50 transition-colors duration-150;
+  }
+
+  .input-search {
+    @apply w-full pl-10 pr-4 py-2.5
+           bg-background border rounded-lg
+           focus:ring-2 focus:ring-primary/20
+           focus:border-primary outline-none
+           transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-primary-foreground
+           hover:bg-primary/90
+           px-4 py-2 rounded-lg font-medium
+           transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground
+           hover:bg-secondary/80
+           px-4 py-2 rounded-lg font-medium
+           transition-colors duration-200;
+  }
+
+  .btn-ghost {
+    @apply text-foreground hover:bg-muted
+           px-4 py-2 rounded-lg font-medium
+           transition-colors duration-200;
+  }
+}
+
+/* --------------------------------------------------
+   Utilities
+-------------------------------------------------- */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .animate-slide-in {
+    animation: slideIn 0.3s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}

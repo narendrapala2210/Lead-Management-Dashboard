@@ -2,6 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import { CustomError } from "../middlewares/errorhandler";
 import Auth from "../models/auth.model";
 import jwt from "jsonwebtoken";
+import { config } from "../config/env";
 
 const login = async (req: Request, res: Response, next: NextFunction) => {
   const { email } = req.body;
@@ -19,7 +20,7 @@ const login = async (req: Request, res: Response, next: NextFunction) => {
     return next(new CustomError("Invalid credentials", 401));
   }
 
-  const token = jwt.sign({ id: user._id }, "key");
+  const token = jwt.sign({ id: user._id }, config.jwtSecretKey);
 
   const { password, ...rest } = user.toObject();
 
