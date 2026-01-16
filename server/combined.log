@@ -1,0 +1,160 @@
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:24:05.293Z"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","service":"Server","timestamp":"2026-01-16T08:24:35.295Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:28:44.054Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:28:44.733Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:32:56.794Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:32:57.441Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:34:04.239Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:34:04.893Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:34:14.233Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:34:14.893Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:35:10.665Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:35:11.692Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:35:44.719Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:35:45.334Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:35:51.195Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:35:51.828Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:36:03.192Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:36:04.351Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:36:04.971Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:36:27.846Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:36:28.530Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:36:57.233Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:36:58.130Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:37:08.591Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:37:09.289Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:40:20.607Z"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"Server","timestamp":"2026-01-16T08:40:20.612Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:40:27.984Z"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"Server","timestamp":"2026-01-16T08:40:27.990Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:40:34.740Z"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"Server","timestamp":"2026-01-16T08:40:34.746Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:40:52.988Z"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: MongoParseError: Invalid scheme, expected connection string to start with \"mongodb://\" or \"mongodb+srv://\"","service":"Server","timestamp":"2026-01-16T08:40:52.995Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:47:41.838Z"}
+{"level":"error","message":"Unhandled Rejection at: [object Promise], reason: MongoParseError: Invalid scheme, expected connection string to start with \"mongodb://\" or \"mongodb+srv://\"","service":"Server","timestamp":"2026-01-16T08:47:41.842Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:48:04.658Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:48:05.323Z"}
+{"level":"info","message":"starting seeding...","service":"Server","timestamp":"2026-01-16T08:48:23.778Z"}
+{"level":"info","message":"Database connected For Seeding","service":"Server","timestamp":"2026-01-16T08:48:23.798Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:48:24.549Z"}
+{"level":"info","message":"Old leads removed","service":"Server","timestamp":"2026-01-16T08:48:24.896Z"}
+{"level":"info","message":"New leads added","service":"Server","timestamp":"2026-01-16T08:48:25.130Z"}
+{"level":"info","message":"starting seeding...","service":"Server","timestamp":"2026-01-16T08:50:27.308Z"}
+{"level":"info","message":"Database connected For Seeding","service":"Server","timestamp":"2026-01-16T08:50:27.327Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:50:28.739Z"}
+{"level":"info","message":"Old leads removed","service":"Server","timestamp":"2026-01-16T08:50:29.291Z"}
+{"level":"info","message":"New leads added","service":"Server","timestamp":"2026-01-16T08:50:29.582Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:51:05.065Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:51:06.015Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:52:47.770Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:52:48.642Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:52:51.540Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:52:52.331Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"Server","timestamp":"2026-01-16T08:52:56.511Z"}
+{"level":"error","message":"UNEXPECTED ERROR 💥: Authentication required","service":"Server","timestamp":"2026-01-16T08:52:56.512Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:53:13.709Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:53:14.327Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:54:08.746Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:54:09.631Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:54:26.643Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:54:27.233Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:56:12.282Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:56:13.748Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:56:14.723Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:56:29.425Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:56:30.277Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:56:52.670Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:56:53.361Z"}
+{"level":"error","message":"UNEXPECTED ERROR 💥: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Lead\"","service":"Server","timestamp":"2026-01-16T08:56:58.590Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:58:40.167Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:58:41.081Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:59:05.095Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:59:06.640Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:59:07.246Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T08:59:10.135Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T08:59:10.827Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:01:44.119Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:01:44.972Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:06:39.051Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:06:40.210Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:07:33.442Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:07:34.056Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:08:01.662Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:08:02.566Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:08:08.017Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:08:08.871Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:08:21.070Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:08:21.694Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:08:27.705Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:08:28.360Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:08:48.843Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:08:49.766Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:09:49.445Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:09:50.232Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:10:02.121Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:10:02.889Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:10:39.503Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:10:40.088Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:10:46.912Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:10:47.727Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:11:15.913Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:11:16.815Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:20:06.120Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:20:07.013Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:20:13.719Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:20:14.562Z"}
+{"level":"info","message":"starting seeding...","service":"Server","timestamp":"2026-01-16T09:20:44.223Z"}
+{"level":"info","message":"Database connected For Seeding","service":"Server","timestamp":"2026-01-16T09:20:44.237Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:20:45.030Z"}
+{"level":"info","message":"Old leads removed","service":"Server","timestamp":"2026-01-16T09:20:45.472Z"}
+{"level":"info","message":"New leads added","service":"Server","timestamp":"2026-01-16T09:20:46.931Z"}
+{"level":"info","message":"starting seeding...","service":"Server","timestamp":"2026-01-16T09:23:39.977Z"}
+{"level":"info","message":"Database connected For Seeding","service":"Server","timestamp":"2026-01-16T09:23:40.033Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:23:40.958Z"}
+{"level":"info","message":"Old leads removed","service":"Server","timestamp":"2026-01-16T09:23:41.528Z"}
+{"level":"info","message":"New leads added","service":"Server","timestamp":"2026-01-16T09:23:43.027Z"}
+{"level":"info","message":"starting seeding auth data...","service":"Server","timestamp":"2026-01-16T09:23:43.027Z"}
+{"level":"info","message":"Old auth removed","service":"Server","timestamp":"2026-01-16T09:23:43.330Z"}
+{"level":"info","message":"New auth data added","service":"Server","timestamp":"2026-01-16T09:23:43.654Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:26:28.347Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:26:29.216Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:26:52.811Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:26:53.627Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:33:44.774Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:33:45.670Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:34:27.903Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:34:28.780Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:34:41.507Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:34:42.102Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:35:20.000Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:35:20.794Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:35:47.103Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:35:47.840Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:35:50.790Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:35:51.548Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:36:18.716Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:36:19.305Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:37:27.949Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:37:28.671Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:37:34.777Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:37:35.661Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:38:22.980Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:38:23.673Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:38:34.300Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:38:35.019Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:38:37.207Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:38:37.776Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:38:44.832Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:38:45.416Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:38:52.522Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:38:53.280Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:39:14.865Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:39:15.431Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:41:13.627Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:41:14.453Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:41:23.542Z"}
+{"level":"info","message":"DB Connected Successfully","service":"Server","timestamp":"2026-01-16T09:41:24.227Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:41:55.347Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:41:58.877Z"}
+{"level":"info","message":"Server started on port 3000","service":"Server","timestamp":"2026-01-16T09:41:59.730Z"}
