@@ -1,0 +1,19 @@
+###login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email":"admin@test.com",
+    "password":"Test@123"
+}
+
+
+### Get all leads
+GET http://localhost:3000/api/leads?search=john&status=Converted&sort=createdAt&order=asc&page=1&limit=10
+
+
+### Get lead by ID
+GET http://localhost:3000/api/leads/6969fbd59123051af936cd3a
+
+### Get lead stats
+GET http://localhost:3000/api/leads/stats
